@@ -13,7 +13,7 @@ locale-gen en_GB.UTF-8
 # Install Python, SQLite and pip
 echo "Installing dependencies..."
 apt-get update
-apt-get install -y python3.10-dev python3.10-venv sqlite3 python3.10-pip supervisor nginx git
+apt-get install -y python3.10-dev python3.10-venv sqlite3 python3.10 supervisor nginx git
 
 mkdir -p $PROJECT_BASE_PATH
 git clone $PROJECT_GIT_URL $PROJECT_BASE_PATH
